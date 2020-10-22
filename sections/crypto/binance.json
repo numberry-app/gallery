@@ -1,0 +1,39 @@
+{
+  "description": "Track price of any coin listed on Binance.",
+  "value": "",
+  
+  "request": {
+    "url": "https://www.binance.com/api/v3/ticker/price?symbol={{symbol}}",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.price",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Binance Generic",
+    "icon": "cloud.fill",
+    "backgroundHex": 16228127,
+    "foregroundHex": 16777215,
+    "prefix": "$",
+    "suffix": ""
+  },
+
+  "variables": [
+    {
+      "name": "symbol",
+      "description": "Symbol for coin you want to track (e.g. BTCUSDT)",
+      "descriptionLinks": {
+        "Binance API docs": "https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md"
+      }
+    }
+  ]
+}
