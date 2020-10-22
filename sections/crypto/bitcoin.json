@@ -1,5 +1,6 @@
 {
   "description": "Track Bitcoin price according to Binance.",
+  "value": 12970.61,
   
   "request": {
     "url": "https://www.binance.com/api/v3/ticker/price?symbol=BTCUSDT",

@@ -1,5 +1,6 @@
 {
   "description": "Track Ethereum price according to Binance.",
+  "value": 412.59,
   
   "request": {
     "url": "https://www.binance.com/api/v3/ticker/price?symbol=ETHUSDT",
