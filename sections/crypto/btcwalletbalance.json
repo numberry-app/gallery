@@ -1,0 +1,39 @@
+{
+  "description": "Track balance of any Bitcoin wallet.",
+  "value": "",
+  
+  "request": {
+    "url": "https://blockchain.info/rawaddr/{{walletAddress}}",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.final_balance",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "BTC Wallet Balance",
+    "icon": "bitcoinsign.circle.fill",
+    "backgroundHex": 16761618,
+    "foregroundHex": 16777215,
+    "prefix": "",
+    "suffix": "sat"
+  },
+
+  "variables": [
+    {
+      "name": "walletAddress",
+      "description": "Address of the wallet you want to track balance for",
+      "descriptionLinks": {
+        "Blockchain.com Data API": "https://www.blockchain.com/api/blockchain_api"
+      }
+    }
+  ]
+}
