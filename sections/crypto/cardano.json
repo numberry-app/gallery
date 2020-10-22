@@ -1,0 +1,31 @@
+{
+  "description": "Track Cardano price according to Binance.",
+  "value": "0.10953000",
+  
+  "request": {
+    "url": "https://www.binance.com/api/v3/ticker/price?symbol=ADAUSDT",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.price",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Cardano",
+    "icon": "cloud.fill",
+    "backgroundHex": 1231812,
+    "foregroundHex": 16777215,
+    "prefix": "$",
+    "suffix": ""
+  },
+
+  "variables": []
+}

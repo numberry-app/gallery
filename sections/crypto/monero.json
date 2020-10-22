@@ -1,0 +1,31 @@
+{
+  "description": "Track Monero price according to Binance.",
+  "value": "126.62000000",
+  
+  "request": {
+    "url": "https://www.binance.com/api/v3/ticker/price?symbol=XMRUSDT",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.price",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Monero",
+    "icon": "cloud.fill",
+    "backgroundHex": 14254330,
+    "foregroundHex": 16777215,
+    "prefix": "$",
+    "suffix": ""
+  },
+
+  "variables": []
+}
