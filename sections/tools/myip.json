@@ -1,0 +1,31 @@
+{
+  "description": "Track your current API address.",
+  "value": "178.121.31.20",
+  
+  "request": {
+    "url": "https://api.ipify.org?format=json",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.ip",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "My IP",
+    "icon": "person.fill",
+    "backgroundHex": 1774692,
+    "foregroundHex": 16777215,
+    "prefix": "",
+    "suffix": ""
+  },
+
+  "variables": []
+}
