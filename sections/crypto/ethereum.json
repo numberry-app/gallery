@@ -1,0 +1,30 @@
+{
+  "description": "Track Ethereum price according to Binance.",
+  
+  "request": {
+    "url": "https://www.binance.com/api/v3/ticker/price?symbol=ETHUSDT",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.price",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Ethereum",
+    "icon": "cloud.fill",
+    "backgroundHex": 5724347,
+    "foregroundHex": 16777215,
+    "prefix": "$",
+    "suffix": ""
+  },
+
+  "variables": []
+}
