@@ -10,7 +10,11 @@ for directory in os.scandir('sections/'):
 	widgets = []
 	for item in os.scandir('sections/{}'.format(section_name)):
 		if item.name != '{}.json'.format(section_name):
-			with open('sections/{}/{}'.format(section_name, item.name)) as widget_file:
+			if section_name == 'currencies':
+				fmt = 'rb'
+			else:
+				fmt = 'r'
+			with open('sections/{}/{}'.format(section_name, item.name), fmt) as widget_file:
 				widgets.append(json.load(widget_file))
 
 	section['widgets'] = widgets
