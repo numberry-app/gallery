@@ -1,5 +1,5 @@
 {
-  "description": "Check for any website if it's down for everyone or just you.",
+  "description": "Check if a website is down for everyone or just you.",
   "value": "",
   
   "request": {
@@ -30,7 +30,7 @@
   "variables": [
     {
       "name": "host",
-      "description": "Host you want to check for being up or down (e.g. gooogle.com)",
+      "description": "Host you want to check for being up or down (e.g. google.com)",
       "descriptionLinks": {
         "isitdown.site": "https://isitdown.site/"
       }
