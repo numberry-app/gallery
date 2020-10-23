@@ -19,7 +19,7 @@
   },
   
   "appearance": {
-    "title": "Currency Rate Generic",
+    "title": "Currency Generic",
     "icon": "coloncurrencysign.circle.fill",
     "backgroundHex": 1774692,
     "foregroundHex": 16777215,
