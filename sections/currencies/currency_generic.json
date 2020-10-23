@@ -1,0 +1,46 @@
+{
+  "description": "Track rate for any currency pair provided by European Central Bank.",
+  "value": "",
+  
+  "request": {
+    "url": "https://api.exchangeratesapi.io/latest?base={{currency1}}&symbols={{currency2}}",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.rates.{{currency2}}",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Currency Rate Generic",
+    "icon": "coloncurrencysign.circle.fill",
+    "backgroundHex": 1774692,
+    "foregroundHex": 16777215,
+    "prefix": "",
+    "suffix": ""
+  },
+
+  "variables": [
+    {
+      "name": "currency1",
+      "description": "Should be USD if you, for example, want to track USD/GBP",
+      "descriptionLinks": {
+        "exchangeratesapi.io": "https://exchangeratesapi.io/"
+      }
+    },
+    {
+      "name": "currency2",
+      "description": "Should be GBP if you, for example, want to track USD/GBP",
+      "descriptionLinks": {
+        "exchangeratesapi.io/": "https://exchangeratesapi.io/"
+      }
+    }
+  ]
+}
