@@ -27,13 +27,9 @@
     "suffix": ""
   },
 
-  "variables": [
-    {
-      "name": "symbol",
-      "description": "Symbol for coin you want to track (e.g. BTCUSDT)",
-      "descriptionLinks": {
-        "Binance API docs": "https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md"
-      }
-    }
-  ]
+  "variables": ["symbol"],
+  "helpText": "",
+  "helpLinks": {
+    "Binance API docs": "https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md"
+  }
 }

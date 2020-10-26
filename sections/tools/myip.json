@@ -27,5 +27,7 @@
     "suffix": ""
   },
 
-  "variables": []
+  "variables": [],
+  "helpText": "",
+  "helpLinks": {}
 }

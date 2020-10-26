@@ -27,13 +27,9 @@
     "suffix": ""
   },
 
-  "variables": [
-    {
-      "name": "host",
-      "description": "Host you want to check for being up or down (e.g. google.com)",
-      "descriptionLinks": {
-        "isitdown.site": "https://isitdown.site/"
-      }
-    }
-  ]
+  "variables": ["host"],
+  "helpText": "",
+  "helpLinks": {
+    "isitdown.site": "https://isitdown.site/"
+  }
 }

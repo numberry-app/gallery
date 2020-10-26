@@ -27,20 +27,9 @@
     "suffix": ""
   },
 
-  "variables": [
-    {
-      "name": "currency1",
-      "description": "Should be USD if you, for example, want to track USD/GBP",
-      "descriptionLinks": {
-        "exchangeratesapi.io": "https://exchangeratesapi.io/"
-      }
-    },
-    {
-      "name": "currency2",
-      "description": "Should be GBP if you, for example, want to track USD/GBP",
-      "descriptionLinks": {
-        "exchangeratesapi.io/": "https://exchangeratesapi.io/"
-      }
-    }
-  ]
+  "variables": ["currency1", "currency2"],
+  "helpText": "",
+  "helpLinks": {
+    "exchangeratesapi.io": "https://exchangeratesapi.io/"
+  }
 }
