@@ -28,7 +28,7 @@
   },
 
   "variables": ["walletAddress"],
-  "helpText": "Address of the wallet you want to track balance for",
+  "helpText": "Specify {{walletAddress}} for the wallet you want to track the balance for.",
   "helpLinks": {
     "Blockchain.com Data API": "https://www.blockchain.com/api/blockchain_api"
   }

@@ -28,7 +28,7 @@
   },
 
   "variables": ["symbol"],
-  "helpText": "",
+  "helpText": "Specify {{symbol}} for the coin you want to track. Some examples are BTCUSDT for Bitcoin and ETHUSDT for Ethereum.",
   "helpLinks": {
     "Binance API docs": "https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md"
   }

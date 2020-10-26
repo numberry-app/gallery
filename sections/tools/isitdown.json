@@ -28,7 +28,7 @@
   },
 
   "variables": ["host"],
-  "helpText": "",
+  "helpText": "Specify the {{host}} you want to track being down or not, for example, google.com.",
   "helpLinks": {
     "isitdown.site": "https://isitdown.site/"
   }

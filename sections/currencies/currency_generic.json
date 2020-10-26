@@ -28,7 +28,7 @@
   },
 
   "variables": ["currency1", "currency2"],
-  "helpText": "",
+  "helpText": "Specify two three-letter currency codes - {{currency1}} and {{currency2}} to define the rate you want to track. If, for example, you want to track Australian Dollar (AUD) to US Dollar (USD) rate, set {{currency1}} to be AUD and {{currency2}} to be USD.",
   "helpLinks": {
     "exchangeratesapi.io": "https://exchangeratesapi.io/"
   }
