@@ -1,9 +1,9 @@
 {
-  "description": "Track Instagram followers for any user you specify.",
+  "description": "Track total Youtube views for any channel you specify.",
   "value": "",
   
   "request": {
-    "url": "https://instagram.com/{{username}}",
+    "url": "https://youtube.com/c/{{channel}}/about",
     "requestMethod": "get",
     "headers": {},
     "authType": "none",
@@ -14,20 +14,25 @@
     "requestBody": "",
     "requestBodyKeyValue": {},
     "filterType": "regex",
-    "filter": "\"edge_followed_by\":\\{\"count\":([0-9]+)\\}",
+    "filter": "\"viewCountText\":\\{\"simpleText\":\"(.*) views\"\\}",
     "variables": {}
   },
   
   "appearance": {
-    "title": "Instagram followers",
+    "title": "Youtube views",
     "icon": "person.fill",
-    "backgroundHex": 11875441,
+    "backgroundHex": 15343655,
     "foregroundHex": 16777215,
     "prefix": "",
     "suffix": ""
   },
 
-  "variables": ["username"],
-  "helpText": "Specify username for the user you want to track followers for.",
+  "variables": ["channel_id"],
+  "helpText": "Specify id for the channel you want to track total views for.",
   "helpLinks": {}
 }
+
+
+
+
+
