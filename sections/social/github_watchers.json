@@ -1,0 +1,33 @@
+{
+  "description": "Track watchers for any Github repository you specify.",
+  "value": "",
+  
+  "request": {
+    "url": "https://api.github.com/repos/{{owner}}/{{repo}}",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.watchers_count",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Github watchers",
+    "icon": "person.fill",
+    "backgroundHex": 3355443,
+    "foregroundHex": 16777215,
+    "prefix": "",
+    "suffix": ""
+  },
+
+  "variables": ["owner", "repo"],
+  "helpText": "Specify owner and repo for the repository you want to track watchers for.",
+  "helpLinks": {}
+}

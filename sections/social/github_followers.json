@@ -1,0 +1,33 @@
+{
+  "description": "Track Github followers for any user you specify.",
+  "value": "",
+  
+  "request": {
+    "url": "https://api.github.com/{{username}}",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$.followers",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Github followers",
+    "icon": "person.fill",
+    "backgroundHex": 3355443,
+    "foregroundHex": 16777215,
+    "prefix": "",
+    "suffix": ""
+  },
+
+  "variables": ["username"],
+  "helpText": "Specify username for the user you want to track followers for.",
+  "helpLinks": {}
+}
