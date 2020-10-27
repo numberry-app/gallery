@@ -3,7 +3,7 @@
   "value": "",
   
   "request": {
-    "url": "https://youtube.com/c/{{channel}}/about",
+    "url": "https://youtube.com/c/{{channel_id}}/about",
     "requestMethod": "get",
     "headers": {},
     "authType": "none",
