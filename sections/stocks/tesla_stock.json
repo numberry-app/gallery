@@ -1,6 +1,6 @@
 {
   "description": "Track Tesla stock price.",
-  "value": "",
+  "value": "406.02",
   
   "request": {
     "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=TSLA&interval=1m&limit=1",

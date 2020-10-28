@@ -1,6 +1,6 @@
 {
   "description": "Track Microsoft stock price.",
-  "value": "",
+  "value": "202.68",
   
   "request": {
     "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=MSFT&interval=1m&limit=1",

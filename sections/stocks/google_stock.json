@@ -1,6 +1,6 @@
 {
   "description": "Track Google stock price.",
-  "value": "",
+  "value": "1510.80",
   
   "request": {
     "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=GOOGL&interval=1m&limit=1",

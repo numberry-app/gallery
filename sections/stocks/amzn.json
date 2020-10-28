@@ -1,6 +1,6 @@
 {
   "description": "Track Amazon stock price.",
-  "value": "",
+  "value": "3162.78",
   
   "request": {
     "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=AMZN&interval=1m&limit=1",
