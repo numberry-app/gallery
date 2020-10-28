@@ -1,0 +1,37 @@
+{
+  "description": "Track price of any stock.",
+  "value": "",
+  
+  "request": {
+    "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol={{symbol}}&interval=1m&limit=1",
+    "requestMethod": "get",
+    "headers": {},
+    "authType": "none",
+    "authUsername": "",
+    "authPassword": "",
+    "authToken": "",
+    "requestBodyType": "json",
+    "requestBody": "",
+    "requestBodyKeyValue": {},
+    "filterType": "json",
+    "filter": "$[0][4]",
+    "variables": {}
+  },
+  
+  "appearance": {
+    "title": "Stock Generic",
+    "icon": "chart.bar.fill",
+    "backgroundHex": 15343655,
+    "foregroundHex": 16777215,
+    "prefix": "$",
+    "suffix": ""
+  },
+
+  "variables": ["symbol"],
+  "helpText": "Specify the official {{symbol}} for the stock you want to track. Some examples are AAPL for Apple and MSFT for Microsoft.",
+  "helpLinks": {
+    "Ticker symbol": "https://en.wikipedia.org/wiki/Ticker_symbol"
+  }
+}
+
+

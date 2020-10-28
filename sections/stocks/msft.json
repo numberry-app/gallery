@@ -1,9 +1,9 @@
 {
-  "description": "Track Apple stock price.",
+  "description": "Track Microsoft stock price.",
   "value": "",
   
   "request": {
-    "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=AAPL&interval=1m&limit=1",
+    "url": "https://api-adapter.backend.currency.com/api/v1/klines?symbol=MSFT&interval=1m&limit=1",
     "requestMethod": "get",
     "headers": {},
     "authType": "none",
@@ -19,9 +19,9 @@
   },
   
   "appearance": {
-    "title": "AAPL",
+    "title": "MSFT",
     "icon": "chart.bar.fill",
-    "backgroundHex": 25190,
+    "backgroundHex": 1214887,
     "foregroundHex": 16777215,
     "prefix": "$",
     "suffix": ""
