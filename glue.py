@@ -5,7 +5,6 @@ section_names = [
 	'featured',
 	'social',
 	'crypto',
-	'stocks',
 	'currencies',
 	'tools'
 ]
