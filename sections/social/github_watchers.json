@@ -29,5 +29,7 @@
 
   "variables": ["owner", "repo"],
   "helpText": "Specify owner and repo for the repository you want to track watchers for.",
-  "helpLinks": {}
+  "helpLinks": {
+    "GitHub API docs": "https://docs.github.com/en/free-pro-team@latest/rest/reference/repos"
+  }
 }

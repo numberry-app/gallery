@@ -29,5 +29,7 @@
 
   "variables": ["username"],
   "helpText": "Specify username for the user you want to track followers for.",
-  "helpLinks": {}
+  "helpLinks": {
+    "GitHub API docs": "https://docs.github.com/en/free-pro-team@latest/rest/reference/users"
+  }
 }
